@@ -1,1 +1,1 @@
-# SSAFY_hw
+# SSAFY
