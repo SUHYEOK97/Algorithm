@@ -11,13 +11,11 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int num = Integer.parseInt(br.readLine());
 		Stack<Integer> s = new Stack<>();
-		int firstNum = 0;
 		for(int i=1; i<=num; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			if(st.countTokens() > 1) {
 				st.nextToken();
 				int input = Integer.parseInt(st.nextToken());
-				firstNum = input;
 				s.push(input);
 			}
 			else {
