@@ -29,9 +29,13 @@ public class Main {
 				arr[sr[i].charAt(j) - 'A'] += Math.pow(10, size-i-1);
 			}
 		}
+		System.out.println(Arrays.toString(arr));
+		System.out.println(Arrays.toString(sr));
 		Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
 		int sum = 0;
 		for(int i=25, num=9; i>=0; i--,num--) sum += (arr[i]*num);
 		System.out.println(sum);
+		
 	}
 }
