@@ -1,4 +1,4 @@
-# SSAFY 5th ( 알고리즘 수업 / 스터디 )
+# ✍ Algorithm Problem Solving
 ### 2020.12.10 Bronze 3
 ### 2021.02.01 Silver 5
 ### 2021.03.10 Gold 5
